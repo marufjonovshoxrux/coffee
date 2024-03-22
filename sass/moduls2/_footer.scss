@@ -1,0 +1,27 @@
+.footer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0 0;
+}
+
+
+.footer2 {
+    a {
+    font-family: Merienda;
+    font-size: 12px;
+    line-height: 17.33px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+
+
+    }
+    nav {
+        display: flex;
+        gap: 20px;
+        padding: 0 0 20px;
+    }
+    
+    
+}

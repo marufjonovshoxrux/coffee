@@ -1,0 +1,17 @@
+.grid3 {
+    margin: 100px 0 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 2;
+    border-radius: 10px;
+    
+    .end {
+        text-align: end;
+    }
+    p {
+        text-align: center;
+    }
+    
+    
+}
+

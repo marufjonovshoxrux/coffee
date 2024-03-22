@@ -1,0 +1,36 @@
+.head2 {
+    background: url(../img/promo3.png) no-repeat center/cover;
+  }
+.header2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 52px;
+}
+
+
+.header2 {
+    a {
+    font-family: Merienda;
+    font-size: 12px;
+    line-height: 17.33px;
+    text-align: left;
+    text-decoration: none;
+
+
+    }
+    nav {
+        display: flex;
+        gap: 20px;}
+}
+
+    h1 {
+        font-family: Merienda;
+        font-size: 40px;
+        line-height: 57.76px;
+        text-align: center;
+        padding: 0 0 90px;
+
+    }
+
+

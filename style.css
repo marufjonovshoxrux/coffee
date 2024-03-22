@@ -1,0 +1,307 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  font-family: "Merienda";
+}
+
+a {
+  font-family: "Merienda";
+  color: white;
+}
+
+p {
+  font-family: "Merienda";
+}
+
+h1 {
+  font-family: "Merienda";
+  color: white;
+}
+
+h3 {
+  font-family: "Merienda";
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 52px;
+}
+
+.header a {
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: left;
+  text-decoration: none;
+}
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.head {
+  background: url(../img/promo.png) no-repeat center/cover;
+}
+
+h1 {
+  font-family: Merienda;
+  font-size: 40px;
+  line-height: 57.76px;
+  text-align: center;
+  margin: 101px 0 25px;
+}
+
+h3 {
+  font-family: Merienda;
+  font-size: 24px;
+  line-height: 34.66px;
+  text-align: center;
+  margin: 30px 0 18px;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 120px;
+  height: 30px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-family: Merienda;
+  margin: 0 0 100px;
+}
+
+.pustota {
+  background-color: white;
+}
+.pustota h2 {
+  font-family: Merienda;
+  font-size: 24px;
+  line-height: 34.66px;
+  text-align: center;
+  padding: 80px 0 20px;
+}
+.pustota p {
+  color: black;
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: center;
+  padding: 55px 0 0;
+}
+
+.gallery {
+  margin-top: 90px;
+  background: url(../img/promo2.png) no-repeat center/cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+}
+
+.gallery {
+  padding: 0 0 90px;
+}
+.gallery h2 {
+  font-family: Merienda;
+  font-size: 24px;
+  line-height: 34.66px;
+  text-align: center;
+  padding: 40px 0 20px;
+}
+.gallery p {
+  text-align: center;
+  padding: 7px;
+}
+.gallery .end {
+  padding: 5px 0 0;
+  text-align: end;
+}
+
+.elem {
+  border-radius: 5px;
+  padding: 45px;
+  background-color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0 0;
+}
+
+.footer a {
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+.footer nav {
+  display: flex;
+  gap: 20px;
+}
+
+.head2 {
+  background: url(../img/promo3.png) no-repeat center/cover;
+}
+
+.header2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 52px;
+}
+
+.header2 a {
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: left;
+  text-decoration: none;
+}
+.header2 nav {
+  display: flex;
+  gap: 20px;
+}
+
+h1 {
+  font-family: Merienda;
+  font-size: 40px;
+  line-height: 57.76px;
+  text-align: center;
+  padding: 0 0 90px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.grid2 h2 {
+  font-family: Merienda;
+  font-size: 24px;
+  line-height: 34.66px;
+  text-align: center;
+  margin: 20px 0 10px;
+}
+.grid2 p {
+  margin: 10px 0 0;
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: center;
+}
+
+.elem2 {
+  padding: 50px 0 0;
+  width: 272px;
+  height: 355px;
+}
+
+.grid3 {
+  margin: 100px 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2;
+  border-radius: 10px;
+}
+.grid3 .end {
+  text-align: end;
+}
+.grid3 p {
+  text-align: center;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0 0;
+}
+
+.footer2 a {
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+.footer2 nav {
+  display: flex;
+  gap: 20px;
+  padding: 0 0 20px;
+}
+
+/* Планешты с шириной меньше чем 1200px */
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+/* Планешты с шириной меньше чем 992px */
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* Телефоны с шириной меньше чем 768px */
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+/* Телефоны с шириной меньше чем 576px */
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+/* скролл появляется из-за width, margin, position */
+.gallery {
+  margin-top: 90px;
+  background: url(../img/promo2.png) no-repeat center/cover;
+}
+
+.head {
+  background: url(../img/promo.png) no-repeat center/cover;
+}
+
+.head2 {
+  background: url(../img/promo3.png) no-repeat center/cover;
+}/*# sourceMappingURL=style.css.map */

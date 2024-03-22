@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 52px;
+}
+
+
+.header {
+    a {
+    font-family: Merienda;
+    font-size: 12px;
+    line-height: 17.33px;
+    text-align: left;
+    text-decoration: none;
+
+
+    }
+    nav {
+        display: flex;
+        gap: 20px;}
+}
+

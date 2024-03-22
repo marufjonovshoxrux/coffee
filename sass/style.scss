@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+$primary-color: #ffff;
+$font-stack: "Merienda";
+a {
+    color: $primary-color;
+    font-family: $font-stack;
+    
+}
+
+a {
+    font-family: $font-stack;
+    color: $primary-color;
+    
+}
+p {
+    font-family: $font-stack;
+    
+    
+}
+h1 {
+    font-family: $font-stack;
+    color: $primary-color;
+   
+}
+h3 {
+    font-family: $font-stack;
+    color: $primary-color
+    
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+@import "./moduls/header";
+@import "./moduls/promo";
+@import "./moduls/pustota";
+@import "./moduls/pustota2";
+@import "./moduls/footer";
+@import "./moduls2/header";
+@import "./moduls2/pustota";
+@import "./moduls2/pustota2";
+@import "./moduls2/footer";
+@import "./media";
+
+
+.gallery {
+    margin-top: 90px;
+    background: url(../img/promo2.png)no-repeat center / cover;
+    
+}
+.head {
+    background: url(../img/promo.png)no-repeat center / cover;
+}
+.head2 {
+    background: url(../img/promo3.png) no-repeat center / cover; 
+}
+
